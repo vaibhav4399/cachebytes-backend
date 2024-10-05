@@ -1,0 +1,19 @@
+{
+  "name": "cachebytes-devblog-backend",
+  "version": "1.0.0",
+  "description": "Backend for CacheBytes Devblog",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vaibhav4399/cachebytes-backend.git"
+  },
+  "author": "Vaibhav Prabhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaibhav4399/cachebytes-backend/issues"
+  },
+  "homepage": "https://github.com/vaibhav4399/cachebytes-backend#readme"
+}
