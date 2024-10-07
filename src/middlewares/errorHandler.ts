@@ -36,16 +36,17 @@ const errorHandler = (error: customAPIError | Error, _req: Request, res: Respons
             timestamp: new Date().toISOString()
         }
 
-        return res.status(error.status).json(response);
+        res.status(error.status).json(response);
+        return;
     }
 
     const response = {
         status: 500,
-        message: "Internal Server Error",
+        message: error.message,
         timestamp: new Date().toISOString()
     }
 
-    return res.status(500).json(response);
+    res.status(500).json(response);
 
 }
 
