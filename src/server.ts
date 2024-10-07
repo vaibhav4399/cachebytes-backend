@@ -15,12 +15,12 @@ server.listen(PORT, () => {
 
 //** Unhandled Rejection */
 
-process.on('unhandledRejection', (reason, promise) => {
+process.on('unhandledRejection', (reason, _promise) => {
     console.log(`An Unhandled Rejection Occured ${reason}`);
 });
 
 //** Unhandled Exception */
 
-process.on('uncaughtException', (reason, promise) => {
+process.on('uncaughtException', (reason, _promise) => {
     console.log(`An unhandled Exception Occured ${reason}`);
 });

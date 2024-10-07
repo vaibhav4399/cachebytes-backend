@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/vaibhav4399/cachebytes-backend#readme",
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/compression": "^1.7.5",
     "@types/cookie-parser": "^1.4.7",
     "@types/cors": "^2.8.17",
@@ -28,6 +29,7 @@
     "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^22.7.4",
     "@types/pg": "^8.11.10",
+    "@types/uuid": "^10.0.0",
     "clean-webpack-plugin": "^4.0.0",
     "nodemon": "^3.1.7",
     "terser-webpack-plugin": "^5.3.10",
@@ -49,10 +51,12 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "express-session": "^1.18.0",
+    "express-slow-down": "^2.0.3",
     "express-validator": "^7.2.0",
     "helmet": "^8.0.0",
     "jsonwebtoken": "^9.0.2",
     "pg": "^8.13.0",
-    "redis": "^4.7.0"
+    "redis": "^4.7.0",
+    "uuid": "^10.0.0"
   }
 }
